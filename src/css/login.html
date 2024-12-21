@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="../style/output.css"/>
+        
+	</head>
+	<body dir="rtl" class="text-sm flex items-center justify-center min-h-screen font-sans text-[#07074D] leading-6 font-medium bg-slate-300">
+		<section class="container  h-auto sm:h-96 dark:bg-black bg-white mx-auto max-w-screen-sm shadow-xl shadow-slate-500/10 p-4 rounded-xl">
+			<header class="flex items-center sm:justify-start overflow-x-scroll  border-b border-slate-400 pb-4">
+				<div class="flex gap-4  items-center px-4 group active cursor-pointer">
+					<span class="w-9 h-9 rounded-full bg-slate-400 dark:bg-white group-[.active]:bg-indigo-600 group-[.active]:text-white flex items-center justify-center">1</span>
+					<strong class="font-semibold text-base text-slate-400 group-[.active]:text-[#07074D]">Sign up</strong>
+				</div>
+				<div class="flex gap-4 items-center px-4 group cursor-pointer">
+					<span class="w-9 h-9 rounded-full bg-slate-400 dark:bg-white group-[.active]:bg-indigo-600 group-[.active]:text-white flex items-center justify-center">2</span>
+					<strong class="font-semibold text-base text-slate-400 group-[.active]:text-[#07074D]">Message</strong>
+				</div>
+				<div class="flex gap-4 items-center px-4 group curser-pointer">
+					<span class="w-9 h-9 rounded-full bg-slate-400 group-[.active]:bg-indigo-600 group-[.active]:text-white flex items-center justify-center">3</span>
+					<strong class="font-semibold text-base text-slate-400 group-[.active]:text-[#07074D]">Confirm</strong>
+				</div>
+			</header>
+			<div class="grid sm:grid-cols-2 gap-6 pt-8">
+				<div class="grid gap-2 relative">
+					<input type="email" placeholder="" class="outline-none peer border border-gray-500 px-4 py-2 rounded-lg" required>
+					<span class="requier-name">first name is required</span>
+					<label class="absolute right-4 peer-placeholder-shown:top-2 -top-6 peer-focus:-top-6 transition-all" for="">First name:</label>
+				</div>
+				<div class="grid gap-2 relative">
+					<input type="email" placeholder="" class="outline-none peer border border-gray-500 px-4 py-2 rounded-lg" required>
+					<span class="requier-name">first name is required</span>
+					<label class="absolute right-4 peer-placeholder-shown:top-2 -top-6 peer-focus:-top-6 transition-all" for="">First name:</label>
+				</div>
+				<div class="grid gap-2 relative">
+					<input type="email" placeholder="" class="outline-none peer border border-gray-500 px-4 py-2 rounded-lg" required>
+					<span class="text-red-600 peer-invalid:block hidden">first name is required</span>
+					<label class="absolute right-4 peer-placeholder-shown:top-2 -top-6 peer-focus:-top-6 transition-all" for="">First name:</label>
+				</div> 
+				<div class="grid gap-2 relative">
+					<input type="email" placeholder="" class="outline-none peer border border-gray-500 px-4 py-2 rounded-lg" required>
+					<span class="text-red-600 peer-invalid:block hidden">first Name is required</span>
+					<label class="absolute right-4 peer-placeholder-shown:top-2 -top-6 peer-focus:-top-6 transition-all" for="">First name:</label>
+				</div>
+				<div class="w-5 h-5 bg-red-600 sm:bg-transparent md:bg-green-700"></div>
+			</div>
+            <div class="flex justify-end gap-1">
+                <button class="btn ">submit</button>
+                <button class="btn btn-gray">cancel</button>
+                
+            </div>
+            
+		</section>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    
+        @font-face {
+            font-family: Vazirmatn;
+            src: url('fonts/webfonts/Vazirmatn-Thin.woff2') format('woff2');
+            font-weight: 100;
+            font-style: normal;
+            font-display: swap;
+        }
+    body{
+        @apply font-[vazirmatn]
+    }
+            
+
+
+}
+
+
+.btn {
+    @apply px-4 py-2.5 rounded-lg text-lg font-semibold bg-indigo-500 text-white
+
+    
+}@layer base{
+    
+    @font-face {
+        font-family: Vazirmatn;
+        src: url('fonts/webfonts/Vazirmatn-Thin.woff2') format('woff2');
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+    }
+body{
+    @apply font-[vazirmatn]
+}
+        
+
+
+}
+
+
+.btn-gray{
+    @apply bg-slate-300 text-black
+}
+
+.requier-name{
+    @apply text-red-700 peer-invalid:block hidden 
+
+    
+
+
+
+}

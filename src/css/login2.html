@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../../srcstyle/output.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+        </style>
+</head>
+<body class="font-[Baskervville]">
+    <section class="bg-gray-100 min-h-screen flex items-center justify-center ">
+        <!--login container-->
+        <div class="bg-rose-100 flex rounded-2xl shadow-lg max-w-3xl p-5 dark:bg-black dark:text-white">
+            <!--left-->
+            <div class="sm:w-1/2 p-16 pt-5">
+                <h2 class="font-bold text-2xl">Login</h2>
+                <p class="text-sm mt-4 justify-center">if you already have a member,please log in</p>
+
+                <form action="" class="flex flex-col gap-4">
+                    <input class="outline-none p-2 mt-8 rounded-xl border" type="text" name="email" placeholder="Email">
+                    <div class="relative">
+                        <input class="outline-none p-2 mt-3 rounded-xl border w-full " type="text" name="password" placeholder="password">
+
+                    </div>
+
+                    
+                    <button class="bg-[#F19A98] rounded-xl text-white py-2 hover:bg-black hover:scale-105 duration-300 dark:hover:bg-[#F19A98] dark:text-black">Login</button>
+                </form>
+                <div class="flex justify-center items-center mt-4">
+                    <span class=" flex grow h-px bg-gray-400  "></span>
+                    <span class="text-gray-400 text-sm">OR</span>
+                    <span class="flex grow h-px bg-gray-400"></span>
+
+                </div>
+
+                <button class="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm gap-4 hover:scale-105 duration-300 dark:text-black ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                        <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                    </svg>Login with google
+                </button>
+
+                <div class="flex items-center flex-row justify-between">
+                    <p class="mt-1 text-xs border-b-gray-500 py-4">Forgot your passsword?</p>
+                    <input class="" type="checkbox" name="" id="">
+                </div>
+
+                
+                
+
+                <div class="text-xs flex justify-between items-center mt-3 gap-2">
+                    <p>If you dont have an acount...</p>
+                    <button class="py-2 px-5 bg-white border rounded-xl hover:text-white hover:bg-black hover:scale-x-105 duration-300 dark:hover:bg-[#F19A98] dark:text-black ">Register</button>
+                </div>
+                
+
+
+
+            </div>
+            <!--right-->
+            <div class="sm:block hidden w-1/2 p-5 ">
+                <img class=" h-full rounded-2xl  " src="../images/pink-sky.jpg" alt="">
+
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
